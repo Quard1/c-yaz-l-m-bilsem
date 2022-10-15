@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+     int x;
+     int y;
+     int z;
+     printf("\n birinci sayiyi girin: ");
+     scanf("%d",&x);
+     printf("\n ussu girin: ");
+     scanf("%d",&y);
+     
+     z = pow(x,y);
+     
+     printf("Sonuc:%d\n",z);
+
+	
+}

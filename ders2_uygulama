@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+     
+     int x;
+     int y;
+     int sonuc;
+     printf("\n birinci sayiyi girin: ");
+     scanf("%d",&x);
+     printf("\n ikinci sayiyi girin: ");
+     scanf("%d",&y);
+     sonuc = x + y;
+     printf("\n iki sayinin toplami: %d\n",sonuc);
+     return 0;
+ 
+}

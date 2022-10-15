@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+	int a=10;
+	int b=3,c=4;
+	int d;
+	printf("a: %d, b: %d, c: %d\n",a,b,c);
+	printf("bir sayi girinz :");
+	scanf("%d",&d);
+	printf("\ngirilen sayi:%d \n\n",d);
+	
+}
